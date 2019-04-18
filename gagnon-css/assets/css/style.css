@@ -4,7 +4,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: pink;
-
 }
 
 li {
@@ -26,4 +25,15 @@ li a:hover {
 
 .active {
   background-color: #4CAf50;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
